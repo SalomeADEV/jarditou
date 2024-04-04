@@ -1,0 +1,82 @@
+.menu{
+
+    border-width: 10px;
+    border: solid; 
+    border-color: black;
+    font-weight:bold;
+ 
+    border-radius: 2px;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.entete {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+   width: 15%; 
+}
+
+.slogan {
+  flex: 100%;
+  text-align: center;
+  font-size: 2vw;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.menuitem  {
+    padding: 1rem;
+}
+
+.menuitem a {
+    color: white;
+}il
+
+.promo{
+    width: 100%;
+}
+
+
+.container {
+    display: flex;
+}
+ile:.menu{
+    max-width:100%;
+    height:auto;
+}
+
+
+
+.texte {
+    flex: 70%;
+}
+
+.maColonne {
+    flex: 30%;
+    background-color: aqua;
+}
+
+@media screen and (max-width: 570px) {
+    .maColonne {
+        display: none;
+    }
+
+    .texte {
+        flex: 100%;
+    }
+    .menu ul{
+        display:inline-block;
+    }
+
+    .menuitem a {
+        color: blueviolet;
+    }
+}
